@@ -3,53 +3,77 @@ import './Gallery.css';
 
 const images = [
   {
-    url: '/images/spa-treatment-1.jpg',
-    category: 'Therapeutic Massage'
+    url: '/gallery1.png',
+
   },
   {
-    url: '/images/spa-treatment-2.jpg',
-    category: 'Relaxation Therapy'
+    url: '/gallery2.png',
+
   },
   {
-    url: '/images/spa-treatment-3.jpg',
-    category: 'Beauty Treatments'
+    url: '/gallery3.png',
+
   },
   {
-    url: '/images/massage-service.jpg',
-    category: 'Massage Services'
+ url: '/gallery4.png',
+  
   },
   {
-    url: '/images/facial-service.jpg',
-    category: 'Facial Care'
+ url: '/gallery5.png',
+   
   },
   {
-    url: '/images/beauty-service.jpg',
-    category: 'Beauty Enhancement'
+   url: '/gallery6.png',
+  
   },
   {
-    url: '/images/review-1.jpg',
-    category: 'Client Experience'
+    url: '/gallery7.png',
+
   },
   {
-    url: '/images/review-2.jpg',
-    category: 'Spa Moments'
+   url: '/gallery8.png',
+
   },
   {
-    url: '/images/review-3.jpg',
-    category: 'Wellness Journey'
+    url: '/gallery9.png',
+  
   },
   {
-    url: '/images/review-4.jpg',
-    category: 'Pampering Session'
+  url: '/gallery10.png',
+ 
   },
   {
-    url: '/images/review-5.jpg',
-    category: 'Lash Services'
+ url: '/gallery11.png',
+   
   },
   {
-    url: '/images/review-6.jpg',
-    category: 'Special Occasions'
-  }
+   url: '/gallery12.png',
+   
+  },
+  {
+    url: '/gallery13.png',
+   
+  },
+  {
+   url: '/gallery14.png',
+
+  },
+  {
+    url: '/gallery15.png',
+  
+  },
+  {
+    url: '/gallery16.png',
+  
+  },
+  {
+   url: '/gallery17.png',
+
+  },
+  {
+    url: '/gallery18.png',
+  
+  },
 ];
 
 export default function Gallery() {

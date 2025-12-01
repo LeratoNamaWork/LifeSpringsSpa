@@ -7,41 +7,45 @@ export default function Home() {
   
   const reviews = [
     {
+      name: "Winnie Mathye",
+      text: "My first time spa massage. It was a wow didn't expect such treatment ever. With my daughter it was epic day ever. Definitely come back soon. Happy clients. Oh how can I forget the drinks they offered cherry on top.",
+      rating: 5,
+      image: "/winnie.png"
+    },
+     {
+      name: "Diketso Khiba",
+      text: "LifeSpring Wellness and Spa is definitely where you want to go to relax and unwind. The staff is super friendly and at your service to assist you on the go. I met Nqobile - oh what an amazing soul she is God bless her and the business.",
+      rating: 5,
+      image: "/dikesto.png"
+    },
+     {
+      name: "Athabile Mrubata",
+      text: "Nqobile's hands are magnificent. I went 4 times during my pregnancy and I also surprised my mom on her birthday - she was ecstatic. She could not believe someone is capable of doing what Nqobile does with her hands. Super professional and friendly!",
+      rating: 5,
+      image: "/athabile.png"
+    },
+     {
+      name: "Fungi Teke",
+      text: "So welcoming and the place was so neat. This was my first time getting my lashes done and Nqobile made sure I was comfortable every step of the way and I'm happy with the results. Great service indeed.",
+      rating: 5,
+      image: "/fungi.png"
+    },
+    {
       name: "Palesa Lesarh",
       text: "The spa was a five star. Me and my friend were welcomed by smiles and friendly faces. You won't regret going there, you will enjoy each and every moment. The massage was 10/10, I can really recommend Life spring wellness spa.",
       rating: 5,
-      image: "/images/review-1.jpg"
+      image: "/palesa.png"
     },
     {
       name: "Thando Lindokuhle",
       text: "I feel so relaxed and rejuvenated. Thank you for your amazing work today. My back, neck and shoulders feel so much better. Thank you so much for a wonderful and relaxing experience, I'm already looking forward for my next visit.",
       rating: 5,
-      image: "/images/review-2.jpg"
-    },
-    {
-      name: "Diketso Khiba",
-      text: "LifeSpring Wellness and Spa is definitely where you want to go to relax and unwind. The staff is super friendly and at your service to assist you on the go. I met Nqobile - oh what an amazing soul she is God bless her and the business.",
-      rating: 5,
-      image: "/images/review-3.jpg"
-    },
-    {
-      name: "Winnie Mathye",
-      text: "My first time spa massage. It was a wow didn't expect such treatment ever. With my daughter it was epic day ever. Definitely come back soon. Happy clients. Oh how can I forget the drinks they offered cherry on top.",
-      rating: 5,
-      image: "/images/review-4.jpg"
-    },
-    {
-      name: "Fungi Teke",
-      text: "So welcoming and the place was so neat. This was my first time getting my lashes done and Nqobile made sure I was comfortable every step of the way and I'm happy with the results. Great service indeed.",
-      rating: 5,
-      image: "/images/review-5.jpg"
-    },
-    {
-      name: "Athabile Mrubata",
-      text: "Nqobile's hands are magnificent. I went 4 times during my pregnancy and I also surprised my mom on her birthday - she was ecstatic. She could not believe someone is capable of doing what Nqobile does with her hands. Super professional and friendly!",
-      rating: 5,
-      image: "/images/review-6.jpg"
+      image: "/thandolindo.png"
     }
+   
+    
+   
+   
   ];
 
   const renderStars = (rating) => {
@@ -167,7 +171,7 @@ export default function Home() {
           <div className="services-preview-grid">
             <div className="service-preview-card">
               <div className="service-image">
-                <img src="/images/massage-service.jpg" alt="Therapeutic Massage" />
+                <img src="/massage.png" alt="Therapeutic Massage" />
               </div>
               <div className="service-content">
                 <h3>Therapeutic Massage</h3>
@@ -178,7 +182,7 @@ export default function Home() {
 
             <div className="service-preview-card">
               <div className="service-image">
-                <img src="/images/facial-service.jpg" alt="Signature Facials" />
+                <img src="/skincare.png" alt="Signature Facials" />
               </div>
               <div className="service-content">
                 <h3>Signature Facials</h3>
@@ -189,7 +193,7 @@ export default function Home() {
 
             <div className="service-preview-card">
               <div className="service-image">
-                <img src="/images/beauty-service.jpg" alt="Beauty Enhancement" />
+                <img src="/fungi.png" alt="Beauty Enhancement" />
               </div>
               <div className="service-content">
                 <h3>Beauty Enhancement</h3>

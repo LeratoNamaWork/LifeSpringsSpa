@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="nav-brand">
           <div className="logo-container">
-            <img src="/logo.png" alt="LifeSpring Spa" className="logo" />
+            <img src="/lifelogo.png" alt="LifeSpring Spa" className="logo" />
           </div>
           <div className="brand-text">
             <div className="brand-name">LifeSpring</div>

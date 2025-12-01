@@ -63,55 +63,8 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Mobile Service Highlight */}
-          <div className="mobile-service-section">
-            <div className="mobile-service-image">
-              <img 
-                src="/images/spa-treatment-1.jpg" 
-                alt="Mobile spa service"
-                onError={(e) => {
-                  e.target.src = '/images/placeholder-spa.jpg';
-                }}
-              />
-              <div className="image-overlay"></div>
-            </div>
-            
-            <div className="mobile-service-content">
-              <div className="section-label">
-                <div className="label-line"></div>
-                <span>Convenience Meets Luxury</span>
-              </div>
-              <h2>LifeSpring Mobile Spa</h2>
-              <p className="lead-text">
-                Services are provided in the comfort of your home, office, hotel or other venues.
-              </p>
-              <p>
-                We bring the spa to you, transforming your space into a relax station. Experience 
-                the same premium treatments and professional care without leaving your preferred location.
-              </p>
-              
-              <div className="contact-info">
-                <div className="contact-item">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                  </svg>
-                  <span>Whatsapp & Calls: 0877622956</span>
-                </div>
-                <div className="contact-item">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                  </svg>
-                  <span>lifesprings_sa</span>
-                </div>
-                <div className="contact-item">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
-                  </svg>
-                  <span>LifeSpring Spa</span>
-                </div>
-              </div>
-            </div>
-          </div>
+        
+        
 
           {/* Detailed Services */}
           <div className="detailed-services">
@@ -125,7 +78,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/massage-service.jpg" 
+                    src="/massage.png" 
                     alt="Therapeutic Massage"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';
@@ -146,7 +99,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/facial-service.jpg" 
+                    src="/facial.png" 
                     alt="Signature Facials"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';
@@ -167,7 +120,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/beauty-service.jpg" 
+                    src="/lash2.png" 
                     alt="Lash Artistry"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';
@@ -189,7 +142,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/spa-treatment-2.jpg" 
+                    src="/nails.png" 
                     alt="Nail Therapy"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';
@@ -210,7 +163,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/spa-treatment-3.jpg" 
+                    src="/waxing.png" 
                     alt="Waxing Services"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';
@@ -231,7 +184,7 @@ export default function Services() {
               <div className="service-card">
                 <div className="service-image">
                   <img 
-                    src="/images/review-1.jpg" 
+                    src="/special.png" 
                     alt="Special Occasion Services"
                     onError={(e) => {
                       e.target.src = '/images/placeholder-spa.jpg';

@@ -29,7 +29,7 @@ export default function AboutUs() {
             <div className="story-images">
               <div className="story-image main-image">
                 <img 
-                  src="/images/spa-interior.jpg" 
+                  src="/about2.png" 
                   alt="Luxury spa interior"
                   onError={(e) => {
                     e.target.src = '/images/placeholder-spa.jpg';
@@ -39,7 +39,7 @@ export default function AboutUs() {
               </div>
               <div className="story-image accent-image">
                 <img 
-                  src="/images/spa-treatment-1.jpg" 
+                  src="/about1.png" 
                   alt="Relaxing treatment"
                   onError={(e) => {
                     e.target.src = '/images/placeholder-spa.jpg';
@@ -145,53 +145,7 @@ export default function AboutUs() {
             </div>
           </div>
 
-          {/* Gallery Preview */}
-          <div className="about-gallery">
-            <div className="section-header-center">
-              <div className="accent-line-center"></div>
-              <h2>Our Space</h2>
-              <p>A glimpse into our serene sanctuary</p>
-            </div>
-
-            <div className="gallery-grid">
-              <div className="gallery-item">
-                <img 
-                  src="/images/spa-treatment-2.jpg" 
-                  alt="Treatment room"
-                  onError={(e) => {
-                    e.target.src = '/images/placeholder-spa.jpg';
-                  }}
-                />
-              </div>
-              <div className="gallery-item">
-                <img 
-                  src="/images/spa-treatment-3.jpg" 
-                  alt="Relaxation area"
-                  onError={(e) => {
-                    e.target.src = '/images/placeholder-spa.jpg';
-                  }}
-                />
-              </div>
-              <div className="gallery-item">
-                <img 
-                  src="/images/massage-service.jpg" 
-                  alt="Massage therapy"
-                  onError={(e) => {
-                    e.target.src = '/images/placeholder-spa.jpg';
-                  }}
-                />
-              </div>
-              <div className="gallery-item">
-                <img 
-                  src="/images/facial-service.jpg" 
-                  alt="Facial treatment"
-                  onError={(e) => {
-                    e.target.src = '/images/placeholder-spa.jpg';
-                  }}
-                />
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </section>
