@@ -10,7 +10,27 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="nav-brand">
           <div className="logo-container">
-            <img src="/lifelogo.png" alt="LifeSpring Spa" className="logo" />
+            <img 
+              src="/lifelogo.png" 
+              alt="LifeSpring Spa" 
+              className="logo"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                const parent = e.target.parentElement;
+                parent.innerHTML = `
+                  <div class="logo-fallback" style="
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #3D7771;
+                    font-size: 20px;
+                    font-weight: bold;
+                  ">LS</div>
+                `;
+              }}
+            />
           </div>
           <div className="brand-text">
             <div className="brand-name">LifeSpring</div>

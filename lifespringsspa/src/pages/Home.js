@@ -249,23 +249,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Experience True Relaxation?</h2>
-            <p>Visit our spa in Springs or book our mobile services for the ultimate wellness experience</p>
-            <div className="cta-actions">
-              <button className="btn-primary" onClick={() => navigate('/booking')}>
-                Book Your Visit
-              </button>
-              <button className="btn-secondary" onClick={() => navigate('/contact')}>
-                Get Directions
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </section>
   );
 }

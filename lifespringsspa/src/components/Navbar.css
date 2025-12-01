@@ -1,3 +1,4 @@
+/* Navbar.css */
 .navbar {
   background: #FFFFFF;
   border-bottom: 1px solid #E7EBEE;
@@ -24,22 +25,52 @@
   text-decoration: none;
 }
 
+/* Square logo container with no background */
 .logo-container {
-  width: 50px;
-  height: 50px;
-  background: #3D7771;
-  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: transparent; /* No background color */
+  border-radius: 8px; /* Square with slight rounding for elegance */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  border: 1px solid #E7EBEE; /* Subtle border instead of background */
 }
 
+/* Logo styling - adjust as needed for your logo */
 .logo {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* This will keep your logo's aspect ratio */
+  padding: 5px; /* Add some padding if needed */
+}
+
+/* Remove the white filter since we don't have background */
+.logo {
+  filter: none; /* Remove the white filter */
+}
+
+/* Alternative: If your logo has transparency and you want to ensure visibility */
+.logo-container.with-border {
+  border: 1px solid #E7EBEE;
+  background: #FAFAFA; /* Very light background only if needed */
+}
+
+/* Fallback styling */
+.logo-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3D7771;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  background: #F5F7FA;
+  border-radius: 8px;
 }
 
 .brand-text {
@@ -229,7 +260,7 @@
   }
 
   .logo-container {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 }
